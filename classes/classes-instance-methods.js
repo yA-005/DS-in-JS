@@ -15,6 +15,12 @@ class Print {
         return `Your full name is: ${this.firstName} ${this.lastName}`
     }
 
+
+    justFirstName(){
+
+        return `Your first-name is ${this.firstName}`
+    }
+
 }
 
 // create an object aka an instance of the class
@@ -32,3 +38,9 @@ let objTwo = new Print("Bob","Peter");
 objTwo.fullName();
 
 console.log(objTwo.fullName());
+
+// calling justFirstName method 
+
+let objThree = new Print("Harris", "Morgan")
+
+console.log(objThree.justFirstName());
