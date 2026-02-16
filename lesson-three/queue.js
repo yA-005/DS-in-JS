@@ -12,4 +12,5 @@ let served = shopeQueue.shift()
 
 console.log(shopeQueue)
 
+// the first person has been popped out 
 console.log(served)
