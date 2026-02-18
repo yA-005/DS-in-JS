@@ -24,4 +24,8 @@ one.next.next = new Sample("What is up!!");
 
 one.next.next.next = new Sample("Let's Hang-out");
 
-console.log(one.next);
+one.next.next.next.next = new Sample("Check you later");
+
+one.next.next.next.next.next = new Sample("Heyy, yaaa");
+
+console.log(one.next.next.next);
