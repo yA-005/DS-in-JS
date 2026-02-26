@@ -1,5 +1,6 @@
 // create a class 
 
+// a singly linked list conatins a head and a data 
 
 class Sample {
 
@@ -29,3 +30,11 @@ one.next.next.next.next = new Sample("Check you later");
 one.next.next.next.next.next = new Sample("Heyy, yaaa");
 
 console.log(one.next.next.next);
+
+let newOne = new Sample("Pass some value inside it");
+
+newOne.next = new Sample("message-one");
+
+newOne.next.next = new Sample("message-two")
+
+console.log(newOne.next.next);
